@@ -1,0 +1,19 @@
+.navbar {
+
+  height: 40px;
+}
+
+.list-navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-right: 300px;
+}
+
+.list {
+  cursor: pointer;
+  font-weight: 400;
+  margin-right: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
