@@ -1,19 +1,31 @@
 .navbar {
-
+  margin-top: -16px;
   height: 40px;
 }
 
 .list-navbar {
+  justify-content: center;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   list-style: none;
-  margin-right: 300px;
+  margin-right: 40px;
 }
 
 .list {
+  margin: 20px 20px 0px 20px;
   cursor: pointer;
-  font-weight: 400;
-  margin-right: 80px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.list:hover {
+  border-bottom: 2px #005792 solid;
+  color: #005792;
+  font-size: 1.1rem;
+}
+
+
+@media only screen and (min-width: 481px) {
+  .list {
+    margin: 20px 50px 0px 50px;
+  }
+
 }

@@ -1,0 +1,23 @@
+.content-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 20px;
+  background-color: rgba(62, 67, 77, 0.39);
+}
+
+.card-services {
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  width: 360px;
+  height: 200px;
+  margin: 10px 0 10px 0;
+}
+
+@media only screen and (min-width: 769px) {
+  .content-services {
+    justify-content: space-evenly;
+  }
+
+}
