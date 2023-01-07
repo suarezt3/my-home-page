@@ -13,13 +13,24 @@
 .list {
   margin: 20px 20px 0px 20px;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .list:hover {
   border-bottom: 2px #005792 solid;
   color: #005792;
   font-size: 1.1rem;
+  --d: 100%;
+  background-position: 0% calc(100% - 3px), 100% calc(100% - 3px);
+  transition: 0.3s, background-position 0.3s 0.3s;
+}
+
+@media only screen and (min-width: 360px) {
+  .list {
+    font-size: 1rem;
+    margin: 20px 10px 0px 10px;
+  }
+
 }
 
 

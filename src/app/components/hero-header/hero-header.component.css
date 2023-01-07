@@ -18,23 +18,37 @@
 
 .description {
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #EEEEEE;
 }
 
 .title {
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #EEEEEE;
   font-size: 2rem;
   margin-top: 6%;
 }
 
 
+@media only screen and (min-width: 360px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
 
 @media only screen and (min-width: 769px) {
   .hero-img {
     height: 400px;
   }
-
+  .title {
+    font-size: 3rem;
+  }
 }
